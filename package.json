@@ -1,8 +1,8 @@
 {
-  "name": "@angelhacks/site",
+  "name": "@sundayhacks/site",
   "version": "1.0.0",
   "private": true,
-  "author": "@lachlanjc and AngelHacks <hello@angelhacks.org>",
+  "author": "@sundayhacks and SundayHacks <info@sundayhacks.org>",
   "license": "MIT",
   "scripts": {
     "build": "node_modules/.bin/next build && node_modules/.bin/next export",
@@ -22,6 +22,7 @@
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "rebass": "^4.0.6",
+    "serialize-javascript": "^3.0.0",
     "theme-ui": "^0.2.43"
   }
 }
