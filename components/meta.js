@@ -3,13 +3,13 @@ import Head from 'next/head'
 export default ({
   title = 'SundaylHacks – Dedicated to giving back!',
   description = 'A 12-hour hackathon for middle and high schoolers in Los Angeles.',
-  image = 'https://sundayhacks.org/static/images/banner-inverted.png',
+  image = 'https://sundayhacks.org/static/images/logo-inverted.png',
   url = 'https://sundayhacks.org'
 }) => (
   <Head>
     <title>{title}</title>
     <meta property="og:title" content={title} />
-    <meta name="twitter:title" content={title} />
+    <meta name="twitter:title" content={title} /> 
     <meta name="og:url" content={url} />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="SundayHackcs" />
@@ -24,7 +24,7 @@ export default ({
           '@type': 'Organization',
           name: 'sundayhacks',
           url: 'https://sundayhacks.org',
-          logo: 'https://sundayhacks.org/static/images/logo_inverted.png',
+          logo: 'https://sundayhacks.org/static/images/logo-inverted.png',
           sameAs: [
             'https://sundayhacks.org'
           ],

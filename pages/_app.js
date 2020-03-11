@@ -1,9 +1,10 @@
 import React from 'react'
 import Head from 'next/head'
 import App, { Container } from 'next/app'
+//import App from 'next/app'
 import { ThemeProvider } from 'theme-ui'
 import { Global } from '@emotion/core'
-import Meta from '../components/meta'
+//import Meta from '../components/meta'
 import Layout from '../components/layout'
 import theme from '../components/theme'
 
@@ -23,7 +24,7 @@ export default class extends App {
 
     return (
       <Container>
-        <Meta />
+        
         <Head>
           <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,900" rel="stylesheet" />
         </Head>
