@@ -66,9 +66,6 @@ export default props => {
           </A>
         </Link>
         <Box sx={{ mx: 'auto' }} />
-        <Link href="/schedule">
-          <A variant="styles.navitem">Schedule</A>
-        </Link>
         <Link href="/about">
           <A variant="styles.navitem">About</A>
         </Link>
