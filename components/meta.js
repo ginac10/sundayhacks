@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
 export default ({
-  title = 'SundaylHacks – Dedicated to giving back!',
-  description = 'A 12-hour hackathon for middle and high schoolers in Los Angeles.',
+  title = 'Sunday Hacks',
+  description = 'A five week CS camp for low-income students in the Bay Area.',
   image = 'https://sundayhacks.org/static/images/logo-inverted.png',
   url = 'https://sundayhacks.org'
 }) => (
@@ -46,23 +46,24 @@ export default ({
           '@context': 'http://schema.org/',
           '@type': 'Event',
           name: 'SundayHacks',
-          startDate: '2019-10-26T9:00',
-          endDate: '2019-10-26T21:00',
+          startDate: '2020-08-23T9:00',
+          endDate: '2020-09-27T21:00',
           description:
-            'Register today for 12 hours of coding, fun, free food, and prizes. SundayHacks will be on October 26, 2019 and open to all middle and high school students.',
+            'Sunday Hacks will host a five week CS workshop and final showcase during the 2020 summer.',
           isAccessibleForFree: true,
           url: 'https://sundayhacks.org',
           image: 'https://sundayhacks.org/static/images/logo-inverted.png',
           location: {
             '@type': 'Place',
-            name: 'Snapchat Headquarters',
+            name: 'Lowell Elementary School',
             address: {
               '@type': 'PostalAddress',
-              addressLocality: 'Los Angeles',
+              addressLocality: 'San Jose',
               addressRegion: 'CA',
-              postalCode: '90291',
-              streetAddress: '606 Venice Blvd., Venice 90291'
+              postalCode: '95112',
+              streetAddress: '625 S 7th St, San Jose, CA 95112'
             }
+
           },
           sponsor: {
             '@type': 'Organization',
@@ -81,7 +82,7 @@ export default ({
           },
           performer: {
             '@type': 'PerformingGroup',
-            name: 'SundayHacks Ad Astra Team'
+            name: 'Sunday Hacks Team'
           }
         })
       }}

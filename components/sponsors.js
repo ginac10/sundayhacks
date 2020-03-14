@@ -26,11 +26,6 @@ const data = {
       link: 'https://stickermule.com/',
       image: 
         'https://sundayhacks.org/static/images/sponsors/stickermule-logo.png'
-    },
-    {
-      name: 'Sketch',
-      link: 'https://sketchapp.com/',
-      image: 'https://sundayhacks.org/static/images/sponsors/sketch-logo.png'
     }
   ]
 }
