@@ -25,5 +25,8 @@
     "rebass": "^4.0.7",
     "serialize-javascript": "^3.0.0",
     "theme-ui": "^0.2.52"
+  },
+  "devDependencies": {
+    "acorn": "^7.1.1"
   }
 }
