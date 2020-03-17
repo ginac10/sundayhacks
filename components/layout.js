@@ -147,11 +147,8 @@ export default props => {
               Nonprofit EIN: 81-2908499. <br />Design: lachlanjc.
             </Text>
           </Box>
-          
         </Box>
-        
       </Box>
-      
     </>
   )
 }
