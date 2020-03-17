@@ -144,12 +144,7 @@ export default props => {
             >
               Fiscally sponsored by The Hack Foundation.
               <br />
-              Nonprofit EIN: 81-2908499. 
-            </Text>
-            <Text
-              fontSize={[ 0]}
-              color='muted'>
-              Design: lachlanjc.
+              Nonprofit EIN: 81-2908499. <br />Design: lachlanjc.
             </Text>
           </Box>
           
