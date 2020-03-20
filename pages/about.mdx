@@ -1,8 +1,7 @@
-import { Header, Container, Gallery } from '../components/blocks'
+import { Header, Banner, List, Container, Callout, Gallery, FAQ, Team } from '../components/blocks'
 import { Box, Button } from 'rebass'
-import Photo from '../components/photo'
 
-<Header sx={{ bg: 'primary' }} width="narrow">
+<Header sx={{ bg: 'primary' }} width="">
 
 # About
 
@@ -11,7 +10,7 @@ import Photo from '../components/photo'
 <Container width="narrow"
   sx={{
     h1: {
-      fontSize: 5,
+      fontSize: [3, 4, 5],
       fontWeight: 'bold'
     },
     strong: {
@@ -19,7 +18,8 @@ import Photo from '../components/photo'
     }
   }}>
 
-# Sunday Friends & Santa Clara Hack Club
+
+## Sunday Friends &amp; Santa Clara Hack Club
 
 [Sunday Friends](https://www.sundayfriends.org/index1.html) is a 501(c)(3) nonprofit organization that empowers families to break 
 the generational cycle of poverty by fostering positive development in children through education.  
@@ -29,4 +29,3 @@ the generational cycle of poverty by fostering positive development in children 
 weekly CS workshops for students of all races, gender, socioeconomic status, and disabilities in the Bay Area.
 
 </Container>
-
